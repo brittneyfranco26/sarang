@@ -1,6 +1,50 @@
-body {
-  font:15px 'Barrio',clean, sanserif;
-  color:#ff6e40;}
+body{
+  font:19px 'Barrio',clean, sanserif;
+  color:#fffff;}
+.container{
+  color:#ff6e40;
+   height:100%;
+   width:100%;
+}
 .oneblock{
-  background-color:#b2557d
+  font:19px;
+  background-color:#b2557d;
+  height:75vh;
+  width:49%;
+}
+.twoblock{
+  font:19px;
+  background-color:red;
+  height:75vh;
+  width:49%;
+  display:inline-table;
+  float:right;
+}
+.threeblock{
+  font:19px;
+  background-color:blue;
+  display:inline-table;
+  height:75vh;
+  width:49%;
+  
+}
+.fourblock{
+  font:19px;
+  background-color:green;
+  height:75vh;
+  width:49%;
+}
+.fiveblock{
+  background-color:purple;
+  height:75vh;
+  width:49%;
+  float:right;
+  font:19px;
+}
+sixblock{
+  font:19px;
+  color:yellow;
+  height:75vh;
+  width:49%;
+  float:left;
 }
