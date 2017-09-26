@@ -1,50 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
 body{
-  font:19px 'Barrio',clean, sanserif;
-  color:#fffff;}
+  width:95vw;
+  height:95vh;
+  background-color:#00FFFF
+}
 .container{
-  color:#ff6e40;
    height:100%;
    width:100%;
+   color:yellow;
+   font-family:'Roboto',sans-serif;
+   font-family:'Pacifico',cursive ;
+   text-align:center;
+   
 }
 .oneblock{
-  font:19px;
+  font:30px;
   background-color:#b2557d;
-  height:75vh;
-  width:49%;
+  height:30%;
+  width:50%;
+  display:inline-block;
+  float:left;
 }
 .twoblock{
-  font:19px;
+  font:30px;
   background-color:red;
-  height:75vh;
-  width:49%;
-  display:inline-table;
+  width:50%;
+  height:30%;
+  display:inline-block;
   float:right;
+  
 }
 .threeblock{
-  font:19px;
+  font:30px;
   background-color:blue;
-  display:inline-table;
-  height:75vh;
-  width:49%;
+  display:inline-block;
+  height:30%;
+  width:50%;
+  float:left;
   
 }
 .fourblock{
-  font:19px;
+  font:30px;
   background-color:green;
-  height:75vh;
-  width:49%;
+  height:30%;
+  width:50%;
+  display:inline-block;
+  float:right;
 }
 .fiveblock{
+  font:30px;
   background-color:purple;
-  height:75vh;
-  width:49%;
-  float:right;
-  font:19px;
-}
-sixblock{
-  font:19px;
-  color:yellow;
-  height:75vh;
-  width:49%;
+  width:50%;
+  height:30%;
+  display:inline-block;
   float:left;
+}
+.sixblock{
+  font:30px;
+  background-color:#7FFF00;
+  height:30%;
+  width:50%;
+  float:right;
 }
