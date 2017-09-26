@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Barrio');
 body{
   width:95vw;
   height:95vh;
@@ -8,8 +8,7 @@ body{
    height:100%;
    width:100%;
    color:yellow;
-   font-family:'Roboto',sans-serif;
-   font-family:'Pacifico',cursive ;
+   font-family: 'Barrio', cursive;
    text-align:center;
    
 }
